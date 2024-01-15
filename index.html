@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Style Link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Eunice Valderama</title>
+</head>
+<body>
+    
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" onclick="delayedScroll('#landing')" href="javascript:void(0);">E U N I C E</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto p-2">
+            <li class="nav-item">
+                <a class="nav-link" onclick="delayedScroll('#landing')" href="javascript:void(0);">About Me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="delayedScroll('#projects')" href="javascript:void(0);">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="delayedScroll('#tools')" href="javascript:void(0);">Tools</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="delayedScroll('#contact')" href="javascript:void(0);">Contact</a>
+            </li>
+            <!-- "Download CV" button without delay -->
+            <li class="nav-item active">
+                <a class="nav-link btn rounded-pill text-light" href="Eunice Valderama - CV.pdf" target="_blank" download>
+                    Download CV
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Navbar Section End -->
+
+<!-- Delay for scrolling Start -->
+<script>
+    function delayedScroll(target) {
+        // Delay time in milliseconds (1000 milliseconds = 1 second)
+        var delayTime = 0.5; 
+        
+        setTimeout(function() {
+            document.querySelector(target).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }, delayTime);
+    }
+</script>
+<!-- Delay for scrolling End -->
+
+<!-- Main Content Section Start -->
+<div class="container-fluid text-center">
+    <div class="row">
+        
+        <!-- Landing Section Start -->
+        <div class="col-xl-12 p-0">
+            
+            <!-- Profile Section Start -->
+            <div id="landing" class="container-fluid text-dark min-vh-100 p-3 p-md-5 md-5">
+                <img class="img-profile mt-5 mt-md-5 pt-5 rounded-circle img-fluid" src="images/eunice.png">
+                <h3 class="mt-md-4">Hi there! I'm</h3>
+                <h1 class="mt-md-2 text-success">Eunice Valderama</h1>
+                <h3 class="mt-5">Full-Stack Web Developer</h3>
+                <div class="row mt-4">
+                    <div class="offset-md-2 col-md-8">
+                        <p>Passionate Software Developer with a love for creating pixel-perfect, innovative and user-friendly digital experiences.
+                            My journey in web development began with a fascination for turning ideas into reality through code. I thrive on challenges,
+                            constantly seeking opportunities to enhance my skills and contribute to meaningful projects.
+                            Explore my portfolio to see some of my latest projects, and feel free to reach out. <p><em>Let's create something amazing together!</em></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Profile Section End -->
+            
+            <!-- Projects Section Start -->
+            <div id="projects" class="text-light min-vh-100 p-5 mb-5">
+                
+                <h2 class="mb-3 pt-5">P R O J E C T S</h2>
+                
+                <div class="d-lg-flex justify-content-center p-md-5">
+                    
+                    <div class="card bg-light col-xl-4 mb-5 mb-xl-0">
+                        <div class="card-body">
+                            <img src="https://as2.ftcdn.net/v2/jpg/02/63/71/89/1000_F_263718956_1zEpfd4pumpiwFTiPX63nmpnSBrPndef.jpg" class="card-img-top img-fluid" alt="drum-kit">
+                            <h5 class="card-title mt-3 text-dark">DRUM-KIT</h5>
+                            <h6 class="card-subtitle text-muted mb-2 text-Da">Language: Javascript</h6>
+                            <p class="card-text text-dark">
+                                This project made me go crazy on how we can incorporate different sound in into projects! Crafting this was an absolute joy, and I'm brainstorming ways to make it even more interactive and fun. Take a peek and join the fun! 🎧🚀 #SoundInnovation
+                            </p>
+                            <a href="https://drum-kit-app-sable.vercel.app/" class="btn btn-outline-success" target="_blank">Link To Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card bg-light col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+                        <div class="card-body">
+                            <img src="https://images.unsplash.com/photo-1558471670-d1e20d159956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80" class="card-img-top img-fluid" alt="notes">
+                            <h5 class="card-title mt-3 text-dark">SOUND TEST</h5>
+                            <h6 class="card-subtitle text-muted mb-2 text-Da">Language: React Js</h6>
+                            <p class="card-text text-dark">
+                                Embark on a sonic adventure with my Sound test creation! This project marks my first foray into ReactJS, adding a delightful melody to my coding journey. Join me in exploring the fusion of technology and sound—it's not just a project; it's a harmonious experience! 🎵🚀 #ReactJSDebut
+                            </p>
+                            <a href="https://sound-testing.vercel.app/" class="btn btn-outline-success" target="_blank">Link To Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card bg-light col-xl-4 mb-5 mb-xl-0">
+                        <div class="card-body">
+                            <img src="https://img.freepik.com/premium-photo/person-is-using-laptop-screen-business-background-wallpaper-different-colors-styles_136558-5807.jpg" class="card-img-top img-fluid" alt="notes">
+                            <h5 class="card-title mt-3 text-dark">KEEPER APP</h5>
+                            <h6 class="card-subtitle text-muted mb-2 text-Da">Language: Javascript</h6>
+                            <p class="card-text text-dark">
+                                Welcome to my Interactive Note-Taking Playground! Infused with the lively spirit of Google Keep, this dynamic web app serves as my canvas for honing Javascript skills and delving deeper into project building. Join me on this vibrant journey of coding creativity! 📝🚀 #NoteTakingMagic
+                            </p>
+                            <a href="https://eunice-keeper-app.glitch.me/" class="btn btn-outline-success" target="_blank">Link To Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Section End -->
+            
+            <!-- Tools Section Start -->
+            <div id="tools" class="container-fluid min-vh-100 p-5 mb-5">
+                <h2 class="mb-3 pt-5 mt-5">T O O L S</h2>
+                <div class="p-md-5">
+                    <img width="180" src="images/html.png" alt="HTML"/>
+                    <img width="180" src="images/css.png" alt="CSS"/>
+                    <img width="180" src="images/javascript.png"  alt="JAVASCRIPT"/>
+                    <img width="180" src="images/nodejs.png" alt="NODE"/>
+                    <img width="180" src="images/react.png" alt="REACTJS"/>
+                    <img width="180" src="images/mongodb.png" alt="MONGODB"/>
+                    <img width="180" src="images/github.png" alt="GITHUB"/>
+                    <img width="180" src="images/vscode.png" alt="VSCODE"/>
+                    <img width="180" src="images/git.png" alt="GIT"/>
+                    <img width="180" src="images/express.png" alt="EXPRESS"/>
+                    <img width="180" src="images/gitlab.png" alt="GITLAB"/>
+                    <img width="180" src="images/postman.png" alt="POSTMAN"/>
+                    <img width="180" src="images/python.png" alt="PYTHON"/>
+                </div>
+            </div>
+            <!-- Tools Section End -->
+            
+            <!-- Contact Form Start -->
+            <div id="contact" class="container-fluid min-vh-100 p-5 mb-0 text-white">
+                <h2 class="mb-3 pt-5 mt-5">Let's Connect!</h2>
+                <div class="row mt-4">
+                    <!-- Contact Details (Left Column) -->
+                    <div class="contact-details col-12 col-md-6 mt-5">
+                        <h3>Social Media</h3>
+                        <a href="mailto:eunicemarginelv@gmail.com" target="_blank">
+                            <img src="images/email-icon.png" alt="Email Icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/eunice-marginel-valderama-a46a5a187/" target="_blank">
+                            <img src="images/linkedin-icon.png" alt="LinkedIn Icon">
+                        </a>
+                        <a href="https://stackoverflow.com/users/15393661/eunice" target="_blank">
+                            <img src="images/stack-icon.png" alt="Stackoverflow Icon">
+                        </a>
+                        <a href="https://github.com/eunicemarginel" target="_blank">
+                            <img src="images/github-icon.png" alt="GitHub Icon">
+                        </a>
+                    </div>
+                    <!-- Contact Details (Left Column) ends here -->
+                    
+                    <!-- Contact Form (Right Column) -->
+                    <div class="col-12 col-md-6 mt-5">
+                        <h3>Contact Form</h3>
+                        <form id="form-col" class="p-3 container-fluid" action="#" method="post">
+                            <!-- Your existing form fields go here -->
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email Address</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="username@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="textareaMessage">Message</label>
+                                <textarea class="form-control" id="textareaMessage" rows="3" placeholder="Your Message" required></textarea>
+                            </div>
+                            <!-- Button Start -->
+                            <div class="text-center">
+                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modalDiv">
+                                    Send Email
+                                </button>
+                            </div>
+                            <!-- Button End -->
+                        </form>
+                    </div>
+                    <!-- Contact Form (Right Column) ends here -->
+                </div>
+            </div>
+            <!-- Contact Form End -->
+            
+            <!-- Bootstrap Modal Example -->
+            <div class="modal fade" id="modalDiv" tabindex="-1" role="dialog" aria-labelledby="modalDivLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalDivLabel">Thank you!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Message Successfully Sent
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Section Start -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p>&copy;2024 Eunice Valderama. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer Section End -->
+        </div>
+    </div>
+</div>
+<!-- Main Content Section End -->
+
+<!-- Bootstrap Script -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

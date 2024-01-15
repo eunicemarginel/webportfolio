@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    font-size: larger;
+    background-color: black;
+}
+
+.btn {
+    font-size: large;
+} 
+
+#landing {
+    background-image: url(https://images.unsplash.com/photo-1637625854255-d893202554f4?q=80&w=2727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1, h3{
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: larger;
+}
+
+#landing img {
+    height: 400px;
+}
+
+#landing p {
+    font-size: large;
+}
+
+#projects {
+    background-color: black;
+}
+
+#projects img {
+    height: 250px;
+}
+
+.card-title {
+    font-family: monospace;
+}
+
+#contact {
+    background-color: black;
+}
+
+#form-col {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.form-group label {
+    font-size: 20px;
+}
+
+.contact-details a {
+    padding-right: 20px; 
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 20px; 
+    text-align: center;
+}
